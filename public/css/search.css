@@ -1,0 +1,24 @@
+.block-search-left{
+	position: fixed;
+	left: 0;
+	top: 50%;
+	background: rgba(255,255,255, 0.8);
+}
+
+.block-search-left div,
+.block-search-right div{
+	flex-direction: row;
+	padding: 5px;
+}
+.block-search-left input,
+.block-search-right input{
+	width: 30% !important;
+	float: right;
+}
+
+.block-search-right{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	background: rgba(255,255,255, 0.8);
+}

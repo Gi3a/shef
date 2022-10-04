@@ -1,0 +1,15 @@
+.chat-new{
+	
+}
+.chat-new a{
+	justify-content: center;
+}
+.chat-block{
+	border: 1px solid #ccc;
+}
+.chat-block a{
+	padding: 10px;
+}
+.chat-block a:hover{
+	border-color: red;
+	}

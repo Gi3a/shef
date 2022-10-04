@@ -1,0 +1,73 @@
+/* Settings Form */
+
+form{
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+}
+
+form input,
+form textarea{
+	border-radius: 3px;
+	outline-color: #444;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 16px;
+	resize: none;
+	text-align: left;
+}
+
+
+/* Classic Form */
+
+.classic-form{
+
+}
+
+.classic-form input,
+.classic-form button,
+.classic-form textarea{
+	display: flex;
+	width: 45%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.classic-form input:hover,
+.classic-form button:hover,
+.classic-form textarea:hover{
+	border-color: #444;
+}
+
+/* Search Form */
+
+.search-form{
+	width: 100%;
+	position: relative;
+}
+
+.search-form input{
+	display: flex;
+
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.search-form button{
+	display: flex;
+	background: none;
+	border: none;
+	position: absolute;
+	right: 1%;
+	top: 30%;
+	font-size: 16px;
+	color: #777;
+}
+
+.search-form input:hover,
+.search-form button:hover{
+	color: #444;
+	border-color: #444;
+}

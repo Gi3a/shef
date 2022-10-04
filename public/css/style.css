@@ -1,0 +1,26 @@
+	* {margin: 0;padding: 0;font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;}
+	* a {text-decoration: none;cursor: pointer;}
+	* h1, * h2, * h3{font-family: TT Prosto Sans Bold;} 
+	* span, * p{font-family: GothaProReg;}
+	* button {outline: none;border: none;cursor: pointer;}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+
+	body::-webkit-scrollbar {width: 0.6em;position: fixed;}
+	body::-webkit-scrollbar-track {box-shadow: 0 1px 0 rgba(0,0,0,0.15);}
+	body::-webkit-scrollbar-thumb {background-color: #666;outline: 1px solid slategrey;transition: 0.4s all;}
+	body::-webkit-scrollbar-thumb:hover {background-color: #888;}
+
+
+
+	/* Icons Logotype */
+	.logo{display: block;background-image: url(/public/img/icon/sprite.png);background-repeat: no-repeat;}
+	.big {width: 354px;height: 148px;background-position: -1px -1px;}
+	.big-white {width: 400px;height: 200px;background-position: -1px -151px;}
+	.norm {width: 105px;height: 45px;background-position: -1px -353px;}
+	.min {width: 195px;height: 82px;background-position: -357px -1px;}
+	.white {width: 94px;height: 40px;background-position: -357px -85px;}

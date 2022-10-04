@@ -1,0 +1,72 @@
+/* Menu Styles */
+.menu{
+	display: flex;flex-direction: column;justify-content: space-between;
+	position: fixed;
+	z-index: 1;
+	top: 60px;
+	background: #fafafa;
+	bottom:0;
+	transition: 0.3s all;
+	width: 0%;
+	visibility: hidden;
+	border-top: 1px solid #ccc;
+}
+
+#menu{
+	left:0;
+}
+
+#profile{
+	right: 0;
+}
+
+.menu-top{
+	display: flex;justify-content: flex-start;flex-direction: column;
+}
+
+.menu-bottom{
+	display: flex;justify-content: flex-end;flex-direction: column;
+}
+
+.divider{
+	display: flex;flex-direction: column;justify-content: center;
+	border-bottom: 1px solid #a1a4a6;
+	width: 100%;
+}
+
+.divider a{
+	display: flex;
+	align-items: center;
+	color: #666;
+	padding: 15px 20px;
+	font-size: 16px;font-family: 'PF DinDisplay','Trebuchet MS',Arial;
+	visibility: hidden;
+}
+
+.divider a i{
+	display: block;
+	margin: 0px 5px;
+}
+
+.divider a:hover{
+	background: #666;
+	color: #fff;
+}
+.open{
+	width: 20% !important;
+	visibility: visible !important;
+}
+.open a{
+	visibility: visible;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 980px)
+{
+	.divider a{
+		text-align: center;
+		justify-content: center;
+		font-size: 18px;
+	}
+	.open{width: 100% !important;}
+}
